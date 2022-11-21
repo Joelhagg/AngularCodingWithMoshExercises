@@ -1,0 +1,15 @@
+<p>favorite works!</p>
+
+
+<i class="bi bi-star"
+    [class.bi-star]="!favorite"
+    [class.bi-star-fill]="favorite"
+    (click)="onClick()"
+></i>
+
+<br>
+<br>
+
+<h3 class="heading">
+    {{ favorite }}
+</h3>

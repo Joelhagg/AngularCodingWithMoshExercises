@@ -1,0 +1,14 @@
+.bi {
+    font-size: 50px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.bi-star-fill {
+    color: rgb(223, 223, 0);
+    filter: drop-shadow(2px 2px 5px #000 );
+}
+
+.heading {
+    margin: 20px;
+}
